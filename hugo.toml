@@ -1,0 +1,144 @@
+baseURL = 'http://179.253.250.99/'
+languageCode = 'zh-cn'
+title = 'Chaogeek'
+theme = 'PaperMod'
+
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+# =========================
+
+# 输出格式
+
+# 搜索功能必须有 JSON
+
+# =========================
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# =========================
+
+# 全局参数
+
+# =========================
+
+[params]
+env = 'production'
+defaultTheme = 'auto'
+
+# =========================
+
+# 首页
+
+# =========================
+
+[params.homeInfoParams]
+Title = 'Chaogeek'
+Content = '''
+一个 Java 程序员，正在向软件底层、安全与 AI 深入。
+
+记录学习、实验、踩坑与思考。
+'''
+
+# =========================
+
+# 头像：static/images/avatar.png
+
+# 自定义样式：assets/css/extended/custom.css
+
+# =========================
+
+
+
+# =========================
+
+# 文章
+
+# =========================
+
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+ShowAllPagesInArchive = true
+
+# =========================
+
+# 搜索
+
+# =========================
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 2
+keys = ['title', 'permalink', 'summary', 'content']
+
+# =========================
+
+# Profile 模式
+
+# 当前首页不用 Profile Mode
+
+# =========================
+
+[params.profileMode]
+enabled = false
+
+# =========================
+
+# 左上角 Logo / 名称
+
+# =========================
+
+[params.label]
+text = 'Chaogeek'
+
+# =========================
+
+# 社交链接
+
+# =========================
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/'
+
+# =========================
+
+# 顶部菜单
+
+# =========================
+
+[menu]
+
+[[menu.main]]
+identifier = 'posts'
+name = '文章'
+url = '/posts/'
+weight = 10
+
+[[menu.main]]
+identifier = 'archives'
+name = '归档'
+url = '/archives/'
+weight = 20
+
+[[menu.main]]
+identifier = 'search'
+name = '搜索'
+url = '/search/'
+weight = 30
+
+[[menu.main]]
+identifier = 'about'
+name = '关于'
+url = '/about/'
+weight = 40

@@ -1,0 +1,13 @@
+/* =========================
+   首页头像
+   ========================= */
+
+.home-avatar {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+}
