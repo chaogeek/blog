@@ -1,6 +1,6 @@
 baseURL = 'https://nsla.uk/'
 languageCode = 'zh-cn'
-title = 'Chaogeek'
+title = '听说你来了'
 theme = 'PaperMod'
 
 hasCJKLanguage = true
@@ -34,7 +34,7 @@ defaultTheme = 'auto'
 # =========================
 
 [params.homeInfoParams]
-Title = 'Chaogeek'
+Title = 'chaogeek'
 Content = '''
 一个 Java 程序员，正在向软件底层、安全与 AI 深入。
 
@@ -109,7 +109,7 @@ text = 'Chaogeek'
 
 [[params.socialIcons]]
 name = 'github'
-url = 'https://github.com/'
+url = 'https://github.com/chaogeek'
 
 # =========================
 
