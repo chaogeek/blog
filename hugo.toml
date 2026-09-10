@@ -1,10 +1,12 @@
 baseURL = 'https://nsla.uk/'
 languageCode = 'zh-cn'
+defaultContentLanguage = 'zh'
 title = '听说你来了'
 theme = 'PaperMod'
 
 hasCJKLanguage = true
 enableRobotsTXT = true
+timeZone = 'Asia/Shanghai'
 
 # =========================
 
@@ -26,6 +28,15 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 env = 'production'
 defaultTheme = 'auto'
+DateFormat = '2006年1月2日'
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+ShowAllPagesInArchive = true
 
 # =========================
 
@@ -50,21 +61,6 @@ Content = '''
 # =========================
 
 
-
-# =========================
-
-# 文章
-
-# =========================
-
-ShowReadingTime = true
-ShowShareButtons = false
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowToc = true
-TocOpen = false
-ShowAllPagesInArchive = true
 
 # =========================
 
