@@ -1,4 +1,4 @@
-baseURL = 'http://179.253.250.99/'
+baseURL = 'https://nsla.uk/'
 languageCode = 'zh-cn'
 title = 'Chaogeek'
 theme = 'PaperMod'
