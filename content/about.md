@@ -5,7 +5,7 @@ date: 2026-09-10
 
 ## 我是谁
 
-我是 Chaogeek，一名 Java 程序员。
+我是 chaogeek，一名 Java 程序员。
 
 目前主要从事软件开发，也在逐渐深入 Linux、JVM、软件安全、逆向和 AI。
 
